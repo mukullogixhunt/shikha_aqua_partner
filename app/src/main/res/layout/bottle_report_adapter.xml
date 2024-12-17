@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_4sdp"
+    android:elevation="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/customerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Mukul Agrawal" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rvBottles"/>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>
+

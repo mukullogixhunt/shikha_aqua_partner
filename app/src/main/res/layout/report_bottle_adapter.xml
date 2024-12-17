@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/successLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_4sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvThankYouOrder">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textSize="@dimen/_12ssp"
+                    android:text="@string/bottle_name"/>
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_11ssp"
+                    tools:text="Water Can 20 Litres RO &amp; UV Filtered"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textSize="@dimen/_12ssp"
+                    android:text="@string/collected_bottles"/>
+
+                <TextView
+                    android:id="@+id/tvCollectedBottles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textColor="@color/success"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_11ssp"
+                    tools:text="1"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textSize="@dimen/_12ssp"
+                    android:text="@string/pending_bottles"/>
+
+                <TextView
+                    android:id="@+id/tvPendingBottles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textColor="@color/error"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_11ssp"
+                    tools:text="1"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/onSurface"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

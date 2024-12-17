@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_10sdp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitleOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:text="@string/add_payment_collection"
+            android:textColor="@color/onSurface"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivThankyou" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/successLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_4sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvThankYouOrder">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textSize="@dimen/_12ssp"
+                    android:text="@string/customer_name"/>
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_11ssp"
+                    tools:text="Mukul Agrawal"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textSize="@dimen/_12ssp"
+                    android:text="@string/pending_collection"/>
+
+                <TextView
+                    android:id="@+id/tvAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:textColor="@color/error"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_11ssp"
+                    tools:text="$262.35"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/outlinedTextField"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginHorizontal="@dimen/_2sdp"
+                android:hint="@string/enter_collected_amount"
+                app:prefixText="\u20B9"
+                app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etCollectedAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnCollect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1.4"
+                android:text="@string/collect"
+                android:textSize="@dimen/_12ssp"
+                android:textAllCaps="false"
+                android:textColor="@color/onSuccess"
+                android:backgroundTint="@color/success"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

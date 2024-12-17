@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">ShikhaAqua\u2122 Partner</string>
+    <string name="default_notification_channel_id">All Notifications</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="heading1">Dummy Title 1</string>
+    <string name="heading2">Dummy Title 2</string>
+    <string name="heading3">Dummy Title 4</string>
+    <string name="desc1">Dummy desc 1 Dummy desc 1 Dummy desc 1 \nDummy desc 1 Dummy desc 1 \nDummy desc 1 Dummy desc 1 Dummy desc 1 </string>
+    <string name="desc2">Dummy desc 1 Dummy desc 1 Dummy desc 1 Dummy desc 1 \nDummy desc 1 Dummy desc 1 Dummy desc 1 Dummy desc 1 \nDummy desc 1 </string>
+    <string name="desc3">Dummy desc 1 Dummy desc 1 Dummy desc 1 \nDummy desc 1 Dummy desc 1 Dummy desc 1 \nDummy desc 1 Dummy desc 1 Dummy desc 1 </string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="by_logging_in_your_are_accepting_our">By logging in your are accepting our</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="please_log_in_to_continue_and_be_aware_nof_all_options">Please log in to continue and be aware \nof all options.</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="verify_your_number">Verify your number</string>
+    <string name="we_will_send_a_6_digit_code_to_verify_nyour_number">We will send a 6 digit-code to verify\nyour mobile number.</string>
+    <string name="verify">Verify</string>
+    <string name="resend_otp">Resend Otp</string>
+    <string name="please_enter_otp">Please enter otp</string>
+    <string name="please_enter_valid_otp">Please enter valid otp</string>
+    <string name="where_do_you_want_to_nlook_for_services">Where do you want to\nlook for Services?</string>
+    <string name="to_enjoy_all_that_karma_has_to_offer_you_we_need_to_know_were_to_look_for_them">To all that Bachat App has to offer you, we need to know were to look for them.</string>
+    <string name="select_your_state">Select your state</string>
+    <string name="select_your_city">Select your city</string>
+    <string name="city">City</string>
+    <string name="please_select_your_city">Please select your city</string>
+    <string name="state">State</string>
+    <string name="please_select_your_state">Please select your state</string>
+
+    <string name="home">Home</string>
+    <string name="orders">Orders</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="account">Account</string>
+
+    <string name="are_you_sure_want_to_logout">Are you sure want to logout ?</string>
+    <string name="are_you_sure_want_to_exit">Are you sure want to exit ?</string>
+    <string name="no">No</string>
+    <string name="Yes">Yes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bhilai_chhattisgarh">Bhilai,Chhattisgarh</string>
+    <string name="delivering_to">Delivering To</string>
+    <string name="our_products">Our Products</string>
+    <string name="recently_ordered">Recently Ordered</string>
+    <string name="aquamate_water_supply">Aquamate Water Supply</string>
+    <string name="_20_ltr">20 Ltr</string>
+    <string name="u20b9_489_00">₹ 489.00</string>
+    <string name="order_now">Order Now</string>
+    <string name="_1">1</string>
+    <string name="proceed_to_checkout">Proceed to checkout</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="your_account_details_and_other_noptions">Your Account Details And Other\nOptions</string>
+
+    <string name="save_changes">Save Changes</string>
+    <string name="please_enter_your_address">Please Enter Your Address</string>
+    <string name="please_enter_your_pincode">Please Enter Your Pincode</string>
+    <string name="please_select_your_date_of_birth">Please Select Your Date Of Birth</string>
+    <string name="please_enter_your_email">Please Enter Your Email</string>
+    <string name="please_enter_your_mobile_number">Please Enter Your Mobile Number</string>
+    <string name="please_enter_your_name">Please Enter Your Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="pincode">Pincode</string>
+    <string name="address">Address</string>
+    <string name="no_recent_bookings_found">You haven\'t ordered anything recently</string>
+    <string name="my_account">My Account</string>
+
+
+    <string name="account_settings">Account Settings</string>
+    <string name="my_address">My Address</string>
+    <string name="logout">Logout</string>
+    <string name="privacy_and_policy">Privacy And Policy</string>
+    <string name="about_us">About Us</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="my_orders">My Orders</string>
+    <string name="ordering_for">Ordering For</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="delivery_timing">Delivery Timing</string>
+    <string name="notes_message">Notes/Message</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="delivery_charges">Delivery Charges</string>
+    <string name="gst">GST</string>
+    <string name="total">Total</string>
+    <string name="place_order">Place order</string>
+    <string name="choose_delivery_date">Choose Delivery Date</string>
+    <string name="choose_delivery_time">Choose Delivery Time</string>
+    <string name="proceed">Proceed</string>
+
+    <string name="note_please_set_correct_amp_proper_address_that_would_help_us_to_reach_you_soon"><![CDATA[Note : Please set correct & proper address that would help us to reach you soon.]]></string>
+    <string name="delivery_location">Delivery Location</string>
+
+    <string name="google_map_key">AIzaSyBzLYBtmne5PfiyveMN1_IseV_j6K1D1X4</string>
+    <string name="save">Save</string>
+    <string name="optional">(optional)</string>
+    <string name="online">Online</string>
+    <string name="cash_on_delivery">Cash on delivery</string>
+    <string name="order_placed_successfully">Order placed successfully</string>
+    <string name="order_id">Order ID:</string>
+    <string name="order_amount">Order Amount:</string>
+    <string name="view_order_history">View Order History</string>
+    <string name="your_order_could_not_be_placed_please_try_again">Your order could not be placed\nPlease try again</string>
+    <string name="try_again">Try Again</string>
+    <string name="order">Order#:</string>
+    <string name="pending">Pending</string>
+    <string name="accepted">Accepted</string>
+    <string name="in_progress">In Process</string>
+    <string name="delivered">Delivered</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="your_account_details_wallet_and_other_options">"Your Account Details, Wallet And Other Options"</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="orders_history">Orders History</string>
+    <string name="availability_status">Availability Status</string>
+    <string name="order_details">Order Details</string>
+    <string name="order_no">Order no</string>
+    <string name="ordered_items">Ordered Items</string>
+    <string name="order_status">Order Status</string>
+    <string name="order_date">Order Date</string>
+    <string name="accept">Accept</string>
+    <string name="pay_mode">Payment Mode</string>
+    <string name="call">Call</string>
+    <string name="go_to_map">Go to map</string>
+    <string name="coupon">Coupon</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="grand_total">Grand Total</string>
+    <string name="order_time">Order Time</string>
+    <string name="dispatched">Dispatched</string>
+    <string name="mark_as_complete">Mark as delivered</string>
+    <string name="you_haven_t_received_any_orders">You haven\'t received any orders</string>
+    <string name="no_orders_found">No Orders Found</string>
+    <string name="dispatch_">Dispatch</string>
+
+    <string name="unable_to_find_location">Unable to find location</string>
+    <string name="_00">0.0</string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="delivery_time">Delivery Time</string>
+    <string name="collections">Collections</string>
+    <string name="collect_now">Collect Now</string>
+    <string name="add_collection">Add Collection</string>
+    <string name="call_now">Call Now</string>
+    <string name="no_pending_collections">No Pending Collections</string>
+    <string name="pending_payment_collections">Pending Payment Collections</string>
+    <string name="collect_bottles">Collect Bottles</string>
+    <string name="pending_bottle_collections">Pending Bottle Collections</string>
+    <string name="no_bottles_for_collection">No Bottles For Collection</string>
+    <string name="collect">Collect</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="pending_collection">Pending Collection:</string>
+    <string name="enter_collected_amount">Enter Collected Amount</string>
+    <string name="add_payment_collection">Add Payment Collection</string>
+
+    <string name="close">Close</string>
+    <string name="payment_collected_successfully">Payment Collected Successfully</string>
+    <string name="failed_to_collect_payment">Failed to Collect Payment</string>
+
+    <string name="bottle_collected_successfully">Bottle Collected Successfully</string>
+    <string name="failed_to_collect_bottle">Failed to Collect Bottle</string>
+
+    <string name="bottle_name">Bottle Name:</string>
+    <string name="total_bottles">Total Bottles:</string>
+    <string name="pending_bottles">Pending Bottles:</string>
+    <string name="enter_collected_bottles">Enter Collected Bottles</string>
+    <string name="today_s_report">Today\'s Report</string>
+    <string name="today_s_payment_collection_report">Today\'s Payment Collection Report</string>
+    <string name="today_s_bottle_collection_report">Today\'s Bottle Collection Report</string>
+    <string name="no_payment_collection_reports">No Payment Collection Reports Found</string>
+    <string name="no_bottle_collection_report_found">No Bottle Collection Report Found</string>
+    <string name="payment_collected">Payment Collected:</string>
+    <string name="payment_pending">Payment Pending:</string>
+    <string name="collected_bottles">Collected Bottles:</string>
+
+
+    <string name="my_notifications">My Notifications</string>
+    <string name="list_of_all_notifications_sent_to_you">List of all notifications sent to you</string>
+    <string name="you_haven_t_received_any_notifications_yet">You haven\'t received any notifications yet</string>
+    <string name="privacy_policy_url">https://shikhaaquapure.com/privacy.php</string>
+    <string name="about_us_url">https://shikhaaquapure.com/about.php</string>
+
+
+    <string name="delivery_date_slot">Delivery Date Slot</string>
+    <string name="delivery_time_slot">Delivery Time Slot</string>
+    <string name="discount">Discount</string>
+
+
+</resources>

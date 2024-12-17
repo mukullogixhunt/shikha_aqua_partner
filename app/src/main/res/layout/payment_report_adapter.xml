@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_4sdp"
+    android:elevation="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/customerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Mukul Agrawal" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:textSize="@dimen/_12ssp"
+                android:text="@string/payment_collected"/>
+
+            <TextView
+                android:id="@+id/tvCollected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:textColor="@color/success"
+                android:textStyle="bold"
+                android:textSize="@dimen/_11ssp"
+                tools:text="1"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:textSize="@dimen/_12ssp"
+                android:text="@string/payment_pending"/>
+
+            <TextView
+                android:id="@+id/tvPendingPayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:textColor="@color/error"
+                android:textStyle="bold"
+                android:textSize="@dimen/_11ssp"
+                tools:text="1"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>
+

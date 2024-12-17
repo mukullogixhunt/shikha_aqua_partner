@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:elevation="@dimen/_4sdp"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_4sdp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/customerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tvBookingNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/onSurfaceVariant"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                tools:text="#202303305" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/tvCustomerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintEnd_toStartOf="@+id/tvStatus"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/tvBookingNo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/primary"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold"
+                tools:text="Mukul Agrawal" />
+
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_9ssp"
+                android:background="@color/primary"
+                android:textColor="@color/onPrimary"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_2sdp"
+                tools:text="Pending" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:textColor="@color/onSurfaceVariant"
+            android:textSize="@dimen/_11ssp"
+            tools:text="B5/156, Second Floor,Galaxy Apartment, Near St. Mary's School,Sector 42, Gurugram" />
+
+        <TextView
+            android:id="@+id/tvDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:maxLines="1"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            tools:text="15 Aug 2021, 2:44 PM" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@color/outline" />
+
+        <LinearLayout
+            android:id="@+id/btnLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/accept"
+                android:background="@color/primary"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"/>
+
+
+            <View
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:background="@color/outline" />
+
+
+            <TextView
+                android:id="@+id/tvGoToMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/go_to_map"
+                android:textColor="@color/primary"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>
+

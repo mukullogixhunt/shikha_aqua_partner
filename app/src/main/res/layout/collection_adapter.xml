@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_4sdp"
+    android:elevation="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/customerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Mukul Agrawal" />
+
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:textColor="@color/onSurfaceVariant"
+            android:textSize="@dimen/_11ssp"
+            tools:text="B5/156, Second Floor,Galaxy Apartment, Near St. Mary's School,Sector 42, Gurugram" />
+
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_gravity="end"
+            android:maxLines="1"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            android:textColor="@color/error"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            tools:text="\u20B9 4000" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@color/outline" />
+
+        <LinearLayout
+            android:id="@+id/btnLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnAddCollection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/add_collection"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:background="@color/outline" />
+
+
+            <TextView
+                android:id="@+id/tvCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/call_now"
+                android:textColor="@color/primary"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>
+
